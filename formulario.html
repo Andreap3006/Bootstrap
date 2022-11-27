@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="icon" href="https://yt3.ggpht.com/ytc/AMLnZu_BSayIwiWulsAYwnaA83j3fJykLnkfXhoGVLzP5Q=s900-c-k-c0x00ffffff-no-rj">
+    <script src="https://kit.fontawesome.com/58ed9529f3.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body class="bg-secondary bg-opacity-75">
+    
+    <header>
+        <h1 class="d-flex justify-content-center fs-1 m-3">Wepa Tours Argentina</h1>
+        
+        <nav class="navbar navbar-expand-lg bg-warning bg-opacity-75">
+            <div class="container-fluid d-flex justify-content-evenly">  
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <a class="navbar-brand" href="./Somos.html">Quienes Somos</a>
+                <a class="navbar-brand" href="./formulario.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    
+    <h2 class="d-flex justify-content-center fs-1 m-3" id="title">Contacto</h2>
+    
+    <main>
+        <section class="form-container">
+            <form class="row g-3 needs-validation d-flex flex-column align-items-center" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su apellido" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom03" class="form-label">Teléfono</label>
+                  <input type="number" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom04" class="form-label">País</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                    <option>Paraguay</option>
+                    <option>Uruguay</option>
+                    <option>Venezuela</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <div class="col-5 d-flex align-self-end m-4">
+                  <button class="btn btn-warning my-" type="submit">Enviar</button>
+                </div>
+              </form>
+        </section>
+
+        <!--Mapa-->
+        <section class="mapa d-flex flex-column align-items-center">
+            <div class="container-mapas">
+                <iframe class="mapa_1" id="mapa_1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13137.353840560443!2d-58.    40891766565616!3d-34.595601987383624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13. 1!3m3!1m2!1s0x95bccabdfc191295%3A0x8110084c679e64c0!2sEl%20Ateneo%20Grand%20Splendid!5e0!3m2!1ses!2sar!4v16  62299302283!5m2!1ses!2sar"
+                    width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="container-card m-3">
+                <div class="card-1" id="card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">El Ateneo Grand Splendid</h5>
+                        <p class="card-text">Av. Santa Fe 1860, C1123 CABA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+      <!--Footer-->
+  <footer class="footer bg-warning bg-opacity-75 d-flex flex-row justify-content-center p-2">
+    <p class="m-2">Copyright © <strong id="logo">Wepa Tours Argentina</strong></p>
+    <div class="container-footer-icon m-2">
+        <a href="https://www.instagram.com/" class="link-dark"><i class="fa-brands fa-instagram mx-2"></i></a>
+        <a href="https://es-la.facebook.com/" class="link-dark"><i class="fa-brands fa-facebook mx-2"></i></a>
+        <a href="https://twitter.com/?lang=es" class="link-dark"><i class="fa-brands fa-twitter mx-2"></i></a>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
